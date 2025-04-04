@@ -1,4 +1,4 @@
-# Código de Scoring - Modelo de Riesgo de Default en un Banco de Corea
+# Código de Scoring - Endeudamiento
 ############################################################################
 
 import pandas as pd
@@ -24,7 +24,7 @@ def score_model(filename, scores):
 
 # Scoring desde el inicio
 def main():
-    df = score_model('credit_score.csv','final_score.csv')
+    df = score_model('creditos_score.csv','final_score.csv')
     print('Finalizó el Scoring del Modelo')
 
 
